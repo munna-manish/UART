@@ -1,6 +1,6 @@
 
 //DESIGN
-module uart_tx(
+module uart_tx_rx(
     input clk,
     input [7:0] data_in,
     input rx,
