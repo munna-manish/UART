@@ -9,7 +9,7 @@ module uart_tb;
     wire [7:0] w_data_out;
     wire w_active;
 
-    uart_tx UUT(
+    uart_tx_rx UUT(
         .clk(r_clk),
         .data_in(r_data_in),
         .rx(w_loopback),
